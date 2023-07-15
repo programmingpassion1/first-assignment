@@ -111,7 +111,7 @@
 
 .container {
     width: 1920px;
-    height: 4867px;
+    height: 832px;
 }
 
 .menu-title {
@@ -160,9 +160,20 @@
     margin-right: 24px;
     margin-bottom: 128px;
 }
+
 .flower-fourth {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 230px;
+    margin-bottom: 128px;
+}
+
+.contact {
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    width: 1440px;
+    height: 449px;
+    margin-top: -100px;
+    margin-right: 240px;
+    margin-left: 240px;
     margin-bottom: 128px;
 }
