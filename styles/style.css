@@ -7,6 +7,8 @@
 }
 
 .feature {
+    width: 1920px;
+    height: 850px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     padding-left: 240px;
@@ -55,6 +57,8 @@
 }
 
 .hot-deal {
+    width: 1920px;
+    height: 620px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -63,16 +67,20 @@
 }
 
 .deal-title {
-    margin-left: 230px;
-    margin-left: 425px;
-    margin-bottom: 0px;
+    width: 585px;
+    height: 48px;
+    margin-top: 200px;
+    margin-bottom: 24px;
+    margin-right: 215px;
+    margin-left: 423px;
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
 .deal-description {
-    margin-top: 24px;
+    width: 594px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 395px;
     color: rgba(39, 39, 39, 0.60);
@@ -90,20 +98,27 @@
     border-radius: 8px;
     border: none;
     background: #E55473;
+    color: white;
 }
 
 .hot-deal-flower {
     width: 318px;
     height: 420px;
     margin-top: 100px;
-    margin-left: 186px;
+    margin-bottom: 100px;
+    margin-right: 429px;
+}
+
+.container {
+    width: 1920px;
+    height: 4867px;
 }
 
 .menu-title {
     margin-top: 128px;
     margin-left: 870px;
     margin-right: 870px;
-    margin-bottom: 0px;
+    margin-bottom: 24px;
     color: #272727;
     text-align: center;
     font-size: 40px;
@@ -111,26 +126,43 @@
 }
 
 .menu-description {
-    margin-top: 25px;
+    width: 594px;
+    height: 60px;
     margin-left: 663px;
     margin-right: 663px;
-    margin-bottom: 0px;
+    margin-bottom: 48px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
+}
+
+.flower-first {
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-right: 24px;
+    margin-bottom: 128px;
+}
+
+.flower-second {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 24px;
+    margin-bottom: 128px;
 
 }
 
-.one {
-    margin-left: 240px;
-    width: 342px;
-    height: 396px;
-    margin-right: 100px;
+.flower-third {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 24px;
+    margin-bottom: 128px;
 }
-
-.last {
-    margin-right: 240px;;
+.flower-fourth {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 230px;
+    margin-bottom: 128px;
 }
